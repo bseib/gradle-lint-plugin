@@ -21,10 +21,11 @@ To apply this plugin:
 ```groovy
 buildscript { repositories { jcenter() } }
 plugins {
-  id 'nebula.lint' version '7.4.0'
+  id 'nebula.lint' version 'x.x.x'  // set version here
 }
 ```
-    
+See (releases page](https://github.com/nebula-plugins/gradle-lint-plugin/releases) for available versions.
+
 *Important:* For now, in a multi-module build you **must** apply lint to the root project, at a minimum.
 
 Alternatively:
