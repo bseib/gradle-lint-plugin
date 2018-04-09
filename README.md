@@ -24,7 +24,7 @@ plugins {
   id 'nebula.lint' version 'x.x.x'  // set version here
 }
 ```
-See (releases page](https://github.com/nebula-plugins/gradle-lint-plugin/releases) for available versions.
+See [releases page](https://github.com/nebula-plugins/gradle-lint-plugin/releases) for available versions.
 
 *Important:* For now, in a multi-module build you **must** apply lint to the root project, at a minimum.
 
